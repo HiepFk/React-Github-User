@@ -25,11 +25,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// hiep-fk.us.auth0.com
-
-// ihffhPomrK6CsBd152cF3NWGkim0Tp2D
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
