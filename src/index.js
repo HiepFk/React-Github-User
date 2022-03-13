@@ -11,11 +11,6 @@ const ClientId = process.env.REACT_APP_CLIENTID;
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Auth0Provider
-      domain="hiep-fk.us.auth0.com"
-      clientId="ihffhPomrK6CsBd152cF3NWGkim0Tp2D"
-      redirectUrl={window.location.origin}
-    > */}
     <Auth0Provider
       domain={Domain}
       clientId={ClientId}
@@ -30,11 +25,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// hiep-fk.us.auth0.com
-
-// ihffhPomrK6CsBd152cF3NWGkim0Tp2D
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
